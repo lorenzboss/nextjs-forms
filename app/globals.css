@@ -7,3 +7,13 @@ img {
 .error {
     color: var(--pico-del-color);
 }
+
+.grid-3-to-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 100%;
+    }
+}
