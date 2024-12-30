@@ -24,8 +24,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} container`}>
+        <header>
+          <h1>Lorenz Development</h1>
+        </header>
+        <main>{children}</main>
+        <footer>
+          <p>&copy;-2024 Lorenz Boss</p>
+        </footer>
       </body>
     </html>
   );
