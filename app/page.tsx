@@ -30,7 +30,7 @@ export default function Home() {
       <p>2. This is a paragraph!</p>
       <p>3. This is a paragraph!</p>
       <p>4. This is a paragraph!</p>
-      <code>print("Hello World!");</code>
+      <code>{"print('Hello World!');"}</code>
     </div>
   );
 }
