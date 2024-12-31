@@ -13,8 +13,8 @@ export const signUpSchema = z
       .max(50, "First name must be less than 50 characters"),
     lastName: z
       .string()
-      .nonempty("First name is required")
-      .min(3, "First name must be at least 3 characters")
+      .nonempty("Last Name is required")
+      .min(3, "Last Name must be at least 3 characters")
       .max(50, "Last name must be less than 50 characters"),
     email: z
       .string()
