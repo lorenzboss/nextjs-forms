@@ -12,8 +12,20 @@ img {
   border-radius: 10px;
 }
 
+.success {
+  color: #7ecb9f;
+}
+
+.warning {
+  color: #d3bb82;
+}
+
 .error {
-  color: var(--pico-del-color);
+  color: #cb6461;
+}
+
+.info {
+  color: #5c84c1;
 }
 
 .grid-3-to-1 {
