@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function ImageForm() {
@@ -31,10 +32,12 @@ export default function ImageForm() {
       {successMessage && <p className="success">{successMessage}</p>}
       {warningMessage && <p className="error">{warningMessage}</p>}
       {imageSrc && (
-        <img
+        <Image
           style={{ border: "1px solid white" }}
           src={imageSrc}
-          alt="Uploaded"
+          alt="Uploaded Image"
+          height={500}
+          width={500}
         />
       )}
     </div>
