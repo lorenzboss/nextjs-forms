@@ -89,7 +89,7 @@ export default function SignUpForm() {
       </section>
 
       {/* Email */}
-      <section className="grid">
+      <section>
         <label>
           Email
           <input
@@ -102,7 +102,7 @@ export default function SignUpForm() {
       </section>
 
       {/* Phone */}
-      <section className="grid">
+      <section>
         <label>
           Phone
           <input
@@ -163,7 +163,7 @@ export default function SignUpForm() {
       </section>
 
       {/* State */}
-      <section className="grid">
+      <section>
         <label>
           State
           <input
